@@ -1,0 +1,121 @@
+body {/*for the whole body*/
+    background-color: #eaf4fc;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p { /*for all the paragraph tags*/
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(27, 47, 86);
+}
+
+
+.topbanner {
+    display: flex; /*for having the logo, name and table to be in the same line*/
+    justify-content: space-between;
+    background-color: #1d72bc;
+}
+.logo1{
+    padding-top: 35px;
+    padding-left: 10px;
+}
+
+.name {/*name of the bank*/
+    margin-top: 0px;
+    padding-top: 5px;
+    font-size: 60px;
+    font-weight: 600;
+    color: #ffffff
+}
+
+.table{
+    padding-top: 10px;
+    margin-right: 10px;
+    color: aliceblue;
+}
+header,
+nav {/*for the top banner to have equal space*/
+    padding: 20px;
+    margin: 10px;
+}
+
+.acc_opening{
+    margin-left: 27.5%;
+    margin-right: 27.5%;
+    height: 100%;
+    width: 45%;
+    border-radius: 10px;
+    border-width: 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+#acc_title{
+    color: red;
+}
+#cname{
+    border-radius: 6px;
+}
+#address{
+    border-radius: 6px;
+}
+#city{
+    border-radius: 6px;
+}
+#submit{
+    border-radius: 6px;
+}
+#reset{
+    border-radius: 6px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: black;
+    transition: 0.5s;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"] {
+    background-color: #1d72bc;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #155a8a;
+}
+
+.login_pg {
+    margin: 5% auto;
+    height: auto;
+    width: 40%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.login_pg{
+    border-radius: 5px;
+    background-color: white;
+}
+#login_title{
+    color: red;
+}

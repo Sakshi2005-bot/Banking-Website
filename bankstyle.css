@@ -1,0 +1,80 @@
+body {/*for the whole body*/
+    background-color: #eaf4fc;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p { /*for all the paragraph tags*/
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(27, 47, 86);
+}
+
+
+.topbanner {
+    display: flex; /*for having the logo, name and table to be in the same line*/
+    justify-content: space-between;
+    background-color: #1d72bc;
+}
+.logo1{
+    padding-top: 35px;
+    padding-left: 10px;
+}
+
+.name {/*name of the bank*/
+    margin-top: 0px;
+    padding-top: 5px;
+    font-size: 60px;
+    font-weight: 600;
+    color: #ffffff
+}
+
+.text {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: rgb(27, 47, 86);
+}
+
+.news {
+    margin-left: 70px;
+}
+
+.scroll {
+    width: 690px;
+    height: 330Px;
+    border: 5px, solid, #1d72bc; /*border of the marquee div*/
+    margin-left: 4px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: white;
+    padding-top: 10px;
+}
+.table{
+    padding-top: 10px;
+    margin-right: 10px;
+    color: aliceblue;
+}
+header,
+nav {/*for the top banner to have equal space*/
+    padding: 20px;
+    margin: 10px;
+}
+
+.banner {
+    display: flex; /*to have the banner and the news side by side*/
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: black;
+    transition: 0.5s;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+}

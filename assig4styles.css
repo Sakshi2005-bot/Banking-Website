@@ -1,0 +1,289 @@
+body {/*for the whole body*/
+    background-color: #eaf4fc;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p { /*for all the paragraph tags*/
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(27, 47, 86);
+}
+
+
+.topbanner {
+    display: flex; /*for having the logo, name and table to be in the same line*/
+    justify-content: space-between;
+    background-color: #1d72bc;
+}
+
+.logo1{
+    padding-top: 35px;
+    padding-left: 10px;
+}
+
+.name {/*name of the bank*/
+    margin-top: 0px;
+    padding-top: 5px;
+    font-size: 60px;
+    font-weight: 600;
+    color: #ffffff
+}
+
+.text {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: rgb(27, 47, 86);
+}
+
+.news {
+    margin-left: 70px;
+}
+
+.scroll {
+    width: 690px;
+    height: 330Px;
+    border: 5px, solid, #1d72bc; /*border of the marquee div*/
+    margin-left: 4px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: white;
+    padding-top: 10px;
+}
+header, nav {/*for the top banner to have equal space*/
+    padding: 20px;
+    margin: 10px;
+}
+
+.banner {
+    display: flex; /*to have the banner and the news side by side*/
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.dashboard{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+.dashboard2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-bottom: 10%;
+}
+
+
+.inv{
+    color: red;
+}
+
+.login_pg{
+    margin-left: 33.33%;
+    margin-right: 33.33%;
+    height: 100%;
+    width: 30%;
+    border-radius: 10px;
+    border-width: 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.services {
+    display: flex;
+    justify-content: space-around;
+}
+.login_pg{
+    border-radius: 5px;
+    background-color: white;
+}
+#login_title{
+    color: red;
+}
+#username{
+    border-radius: 6px;
+}
+#password{
+    border-radius: 6px;
+}
+
+/* General Styles */
+body {
+    background-color: #eaf4fc; /* Light background for better readability */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+.topbanner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1d72bc;
+    padding: 20px;
+}
+
+.logo1 {
+    padding: 10px;
+}
+
+.name {
+    margin: 0;
+    font-size: 60px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+}
+
+.table {
+    margin: 0;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+a:hover {
+    color: #f3f3f3; /* Lighten on hover */
+}
+
+/* About Us Section */
+.about-us {
+    padding: 40px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.about-container h2, .about-container h3 {
+    color: #1d72bc; /* Main color for headings */
+    border-bottom: 2px solid #1d72bc; /* Underline for emphasis */
+    padding-bottom: 5px;
+}
+
+.about-container p {
+    font-size: 1.1em;
+    line-height: 1.6em;
+    margin-bottom: 15px;
+}
+
+.about-container ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.about-container ul li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1d72bc;
+    color: white;
+    position: relative;
+    width: 100%;
+    font-size: 0.9em;
+    bottom: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: black;
+    transition: 0.5s;
+}
+.login_pg {
+    margin: 5% auto;
+    height: auto;
+    width: 40%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+h2 {
+    color: #1d72bc;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    color: rgb(27, 47, 86);
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"] {
+    background-color: #1d72bc;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #155a8a;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    margin-right: 20px;
+    color: white;
+}
+
+.nav-list li:last-child {
+    margin-right: 0;
+}
+
+.Detailslink {
+    color: black;
+    text-decoration: none;
+}
+
+.Detailslink:hover {
+    color: #1d72bc;
+    transition: 0.5s;
+}
+
+.reg{
+    display: flex;
+    justify-content: space-evenly;
+}
